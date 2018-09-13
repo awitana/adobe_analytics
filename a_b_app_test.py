@@ -1,8 +1,8 @@
 #importing files Client and ReportDefinition from the adobe_analytics library
 from adobe_analytics import Client, ReportDefinition
 
-#client contains Avi's username and secret
-client = Client('awitana:Fairfax NZ', 'b235d083b8484579ec71f3544d746442')
+#enter your username and shared secret (from Adobe Analytics User Management)
+client = Client('username', 'shared secret')
 suites = client.suites()
 #global report suite
 suite = suites['fairfaxnz-stuffoverall-production']
