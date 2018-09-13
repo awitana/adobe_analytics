@@ -6,7 +6,7 @@ from plotly import figure_factory as ff
 import plotly
 import pandas as pd
 
-client = Client('awitana:Fairfax NZ', 'b235d083b8484579ec71f3544d746442')
+client = Client('username', 'shared secret')
 suites = client.suites()
 suite = suites['fairfaxnz-stuffoverall-production']
 
