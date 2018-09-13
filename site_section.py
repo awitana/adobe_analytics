@@ -2,7 +2,7 @@
 from adobe_analytics import Client, ReportDefinition
 
 #setting client to Avi's username and secret (from Adobe Analytics User Management)
-client = Client('awitana:Fairfax NZ', 'b235d083b8484579ec71f3544d746442')
+client = Client('username', 'secret')
 
 
 #setting suite to global report suite rsid (report suite ID)
