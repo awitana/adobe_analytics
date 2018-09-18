@@ -21,7 +21,7 @@ import pandas as pd
 pd.set_option("display.max_columns", None)
 
 # setting client variable with my username and shared secret (from Adobe Analytis user management)
-client = Client("awitana:Fairfax NZ", "b235d083b8484579ec71f3544d746442")
+client = Client("username", "shared secret")
 
 # setting suite variable with the global report suite id
 suites = client.suites()
