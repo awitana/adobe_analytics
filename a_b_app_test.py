@@ -1,4 +1,4 @@
-# purpose: check for statiscally significant differences in key KPIs (Visits, Page Views, Article Views)
+# purpose: check for statistically significant differences in key KPIs (Visits, Page Views, Article Views)
 # between the A and B testing segments on the iOS and Android apps
 
 # https://machinelearningmastery.com/nonparametric-statistical-significance-tests-in-python/
